@@ -47,7 +47,7 @@ def add_s(arr)
   end
   return return_arr
 
-  
+
 end
 
 
