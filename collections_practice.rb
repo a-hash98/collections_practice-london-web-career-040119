@@ -48,7 +48,7 @@ def add_s(arr)
   #return return_arr
 
  a = arr.each_with_index.collect{|el,index| el+'s' if index!=1}
- return a.delete(nil).insert(1,arr[1]).
+ return a.insert(1,arr[1]).compact
 
 
 end
