@@ -49,7 +49,7 @@ def add_s(arr)
 
  a = arr.each_with_index.collect{|el,index| el+'s' if index!=1}
  return a.insert(1,arr[1])
- 
+
 
 end
 
